@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pristine Basic Tutorial</title>
+</head>
+<body>
+    <style>
+* :not(body){text-align:center;}
+
+body {background-color:#fefad7;}
+
+h1 { color: #7c795d; font-family: 'Trocchi', serif; font-size: 45px; font-weight: normal; line-height: 48px; margin: 0; }
+
+
+h2 { color: #7c795d; font-family: 'Source Sans Pro', sans-serif; font-size: 28px; font-weight: 400; line-height: 32px; margin: 0 0 24px; }
+
+
+.subheader { font-size: 26px; font-weight: 300; color: #ffcc66; margin: 0 0 24px; }
+
+
+p { color: #4c4a37; font-family: 'Source Sans Pro', sans-serif; font-size: 18px; line-height: 32px; margin: 0 0 24px; }
+
+
+a { color: #ff9900; background: #fff4a3; text-decoration: none; }
+
+
+a:hover { color: #ffcc66 }
+    </style>
+    <h1>Welcome to Pristine!</h1>
+    <p>This is a sample page for your new Pristine site. Let's start by learning how to changing the routes. No php knowledge necessary! <br> There are currently 2 json configuration files. One is called <b>pdec.json</b> and one is called <b>mdec.json</b><br> To manipulate routes accessible from the web, edit <b>pdec</b>. For routes related to php includes (Modules), Edit <b>Mdec</b>.</p>
+    <h2>Let's get started!</h2><p>Open the route configuration file for sites (sdec.json) <br>Edit Landing->Pages->Home->Src from <code>./sites/examples/index.html</code> to <code>./sites/landing/index.html</code><br>Now create a folder called landing inside of the prisms folder and then create an index.html within that.<br>Any traffic towards the root domain (ex: https://domain.com/) will now be redirected to the index.html (sites/landing/index.html). It's as easy as that!</p><h2>Now update the site to see your changes.</h2>
+</body>
+</html>

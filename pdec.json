@@ -1,0 +1,31 @@
+{
+    "landing": {
+        "pages": {
+            "home": {
+                "src": "./prisms/examples/index.html",
+                "route": "/"
+            }
+        }
+    },
+    "errors": {
+        "pages": {
+            "404": {
+                "src": "./prisms/errors/404.html",
+                "route": "/404"
+            },
+            "failtoload": {
+                "src": "./prisms/errors/ftl.html",
+                "route": "/failtoload"
+            }
+        }
+    },
+    "documentation": {
+        "pages": {
+            "start": {
+                "src": "./prisms/documentation/index.html",
+                "route": "/docs"
+            }
+        }
+    }
+
+}
